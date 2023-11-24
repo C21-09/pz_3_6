@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>PZ 3.6</title>
+</head>
+
+<body>
+	<h1>Welcome to PZ 3.6!</h1>
+	<h2>Ex. 1</h2>
+	<button id="myButton">Click me :)</button>
+
+	<h2>Ex. 2</h2>
+	<input placeholder="Кликните здесь, затем нажмите клавишу." size="40" />
+	<p id="log"></p>
+
+	<h2>Ex. 3</h2>
+	<input id="inputEx3" placeholder="Сфокусуйся на мені" size="40" />
+	<button id="focusButton">Focus on me :)</button>
+
+	<h2>Ex. 4</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, dolores iste amet ex assumenda numquam nemo tenetur
+		nostrum quos illum pariatur maiores, possimus vitae autem accusantium distinctio officiis. At, vitae.
+		Asperiores molestias, incidunt, molestiae nobis eveniet alias ea consequatur dolores, modi quisquam cupiditate
+		optio sint cumque neque commodi! Perspiciatis culpa similique inventore modi tenetur numquam perferendis aperiam
+		sit ipsum amet?
+		Quae quis laudantium error nesciunt ipsam. Dolore iure sed ab omnis obcaecati atque libero molestias provident
+		deleniti. Nemo reiciendis perferendis, tempore explicabo in voluptatum, eum ducimus minus reprehenderit, natus
+		commodi?
+		Ratione sint sequi maiores temporibus praesentium similique cumque consectetur fugiat voluptas, omnis a
+		doloribus. Quidem facilis magni sit, debitis est, suscipit commodi totam qui, laborum veniam odit sint
+		distinctio quia!
+		Harum quis veniam cum eum, obcaecati doloribus eius ducimus, nihil architecto provident tenetur dignissimos odio
+		nesciunt debitis est officiis omnis recusandae! Ipsa porro nihil, consequatur cumque maiores hic consequuntur
+		expedita.
+		Ipsam excepturi molestiae quis eaque dolorem modi molestias, ad velit numquam beatae possimus magni explicabo,
+		doloribus expedita tempore ducimus error fugiat a adipisci dolor! Voluptatibus, ipsa! Non eligendi maxime
+		aspernatur.
+		Autem optio, omnis vitae nulla eos veniam non beatae laborum consectetur distinctio itaque iure quo modi cumque
+		tempora aspernatur quis sed fuga debitis reprehenderit mollitia provident molestias magni quas? At.
+		Veritatis a veniam rem assumenda deleniti eveniet inventore sunt cumque optio consequatur molestiae similique
+		voluptatum quia, ad et beatae corporis quidem facere aliquam expedita! Similique est molestiae et laboriosam
+		aspernatur.
+		Voluptas, quia natus voluptates, quis sequi aperiam possimus commodi, molestias repudiandae eius esse? Nulla
+		veritatis quasi placeat totam repellat, atque itaque quidem dolores cumque ipsam aspernatur eaque ab ipsum
+		excepturi.
+		Distinctio sequi excepturi eius laborum eos illo dolores, unde harum maiores dicta voluptates dolor voluptatum.
+		Temporibus labore iusto ad eius dolores perspiciatis ratione? Eum dolorum excepturi veritatis, harum a ab.
+		Earum, consequuntur! Quisquam mollitia fuga quaerat tempore nulla dolores quas consequatur aperiam temporibus
+		soluta quidem consectetur odit, ipsa dolorum dolor eveniet. Aut debitis quam porro unde laudantium nihil veniam
+		perferendis?
+		Corporis soluta, voluptatem quibusdam accusamus cupiditate quae earum aliquid deserunt consequatur, voluptates
+		possimus incidunt velit? Voluptas doloribus distinctio beatae incidunt temporibus eum quisquam quaerat sapiente?
+		Praesentium dolor quo libero dignissimos.
+		Autem harum ipsum, ea dicta itaque libero? Necessitatibus eveniet soluta quis nihil aperiam quae! Similique
+		minus dignissimos accusantium repudiandae eum culpa architecto rerum facere molestias vero quis, recusandae
+		ipsum tenetur?
+		Alias explicabo voluptas qui aliquam similique delectus magnam numquam earum debitis voluptatem. Cum ipsa
+		doloremque adipisci, nam illum sunt nisi assumenda veritatis iste repudiandae, ab totam, rerum accusantium
+		delectus expedita.
+		Animi blanditiis qui laboriosam quisquam porro consectetur sed, voluptates illo exercitationem dolorum debitis
+		ullam. Expedita saepe recusandae alias reiciendis magnam voluptatem ex asperiores iste similique! Provident
+		voluptatem laudantium corporis nesciunt!
+		Deleniti voluptas provident suscipit qui similique distinctio dolores nesciunt, a beatae eum quaerat ad tenetur
+		architecto quisquam nemo quas rerum corporis! Exercitationem maiores illo deserunt animi optio dignissimos!
+		Aperiam, ratione!
+		Modi debitis voluptates omnis sed minima porro quod perferendis, fugit blanditiis. Eos modi aliquam fuga optio
+		iusto impedit aliquid, adipisci vitae eum veritatis mollitia praesentium inventore eaque minima officiis. Iure.
+		Culpa quod, fuga asperiores earum molestias delectus! Facere porro qui, pariatur vero libero tenetur delectus
+		magnam optio ex esse illo asperiores, deserunt aliquam animi deleniti quae autem non, excepturi fugit?
+		Ipsam obcaecati itaque omnis accusantium aut enim quidem, consectetur quas? Enim totam quaerat facere omnis
+		vitae impedit repellendus aliquam, mollitia ratione animi maiores natus quam obcaecati dignissimos quibusdam
+		odit a?
+		Debitis pariatur praesentium atque eum. Aut sequi amet nisi deleniti libero obcaecati suscipit nam
+		necessitatibus sit provident impedit dolorem eligendi nemo ab excepturi commodi recusandae, unde voluptatum
+		corrupti. Velit, sunt.</p>
+
+	<h2>Ex. 5</h2>
+	<button id="eventButton">Check events:)</button>
+
+	<script>
+		// FOR EX. 1
+		let myButton = document.getElementById('myButton')
+		myButton.onclick = function () {
+			alert('Кнопка була натиснута!')
+		}
+
+		// FOR EX. 2
+		const input = document.querySelector("input");
+		const log = document.getElementById("log");
+
+		input.addEventListener("keydown", logKey);
+
+		function logKey(e) {
+			log.textContent = 'Клавиша була натиснута!';
+		}
+
+		// FOR EX. 3
+		document.getElementById("inputEx3").addEventListener("click", () => {
+			document.getElementById("inputEx3").focus();
+			alert('Елемент отримав фокус!')
+		});
+
+		document.getElementById("focusButton").addEventListener("click", () => {
+			document.getElementById("inputEx3").blur();
+			alert('Елемент втратив фокус!')
+		});
+
+		// FOR EX. 4
+		document.addEventListener("DOMContentLoaded", (event) => {
+			alert('Документ повністю завантажено!')
+		});
+
+		// FOR EX. 5
+		document.getElementById("eventButton").addEventListener("click", () => {
+			alert('Подія виникла!')
+		});
+
+		document.getElementById("eventButton").addEventListener("click", () => {
+			alert('Ще один обробник події!')
+		});
+
+	</script>
+</body>
+
+</html>
